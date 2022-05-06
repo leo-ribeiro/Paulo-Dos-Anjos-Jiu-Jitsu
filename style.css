@@ -1,9 +1,14 @@
+/* * {
+    box-sizing: border-box;
+} */
 
 body {
     margin: 0;
     padding: 0; 
-    background-image: url("imagens/Foto-equipe-1.jpeg");
+    /* background-image: url("imagens/Foto-equipe-1.jpeg"); */
+    background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
     background-color: lightcyan;
+    box-sizing: border-box;
 }
 
 .header{
@@ -16,6 +21,7 @@ body {
     height: 150px;
     top: 0;
     width: 100%;
+    opacity: 0.8;
 }
 
 .menu {
@@ -34,10 +40,7 @@ body {
 .logo-img {
     width: 100px;
     height: 100px;
-    padding-right: 40px;
-
-    /* padding-right: 20px; */
-    
+    padding-right: 40px;   
 }
 
 .logo-titulo{
@@ -71,12 +74,12 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: black;
     text-decoration: none;
 }
 
-.logo-titulo:hover{
+.logo-titulo:hover {
     color: black;
 }
 
@@ -90,9 +93,6 @@ h1 {
      
 }
 
-article {
-    /* position: relative; */
-    /* text-align: right; */
-   
+body < #principal {
     
 }
