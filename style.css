@@ -5,16 +5,14 @@
 body {
     margin: 0;
     padding: 0; 
-    background-color: rgb(28, 41, 41);
+    background-color: lightgray;
     background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
     background-attachment: fixed;
-    background-clip: padding-box;
-    /* background-repeat: no-repeat, repeat; */
-    
+    background-clip: padding-box;    
 }
 
 .header{
-    background: #c92626;
+    background: red;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,12 +24,6 @@ body {
     width: 100%;
     opacity: 0.8;
 }
-
-/* .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}  */
 
 .cabecalho{
     display: flex;
@@ -85,12 +77,12 @@ a:hover {
 }
 
 h1 {
-    display: flex;
+    /* display: flex; */
     padding: 0;
     text-align: center;
     font-size: 50px;
-    color: #c92626;
-    /* width: 30px; */ 
+    color: #810000;
+    
      
 }
 
