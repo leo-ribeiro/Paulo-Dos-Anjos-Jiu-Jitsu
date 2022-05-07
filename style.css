@@ -1,8 +1,13 @@
 
 body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
     margin: 0;
     padding: 0; 
-    background-color: lightgray;
+    background-color: #fff;
     background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
     background-attachment: fixed;
     background-clip: padding-box;    
