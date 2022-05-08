@@ -8,8 +8,7 @@ body {
     padding: 0; 
     background-color: #fff;
     background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
-    background-attachment: fixed;
-    /* background-clip: padding-box;  */   
+    background-attachment: fixed;  
     overflow: scroll;
 }
 
@@ -87,7 +86,8 @@ h1 {
 
 .principal {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     color: lightgreen;
     padding-top: 150px;
@@ -98,15 +98,15 @@ article {
     justify-content: center;
     align-items: center;
     width: 300px;
+    padding-right: 100px;
 
 }
 
 aside {
     flex-direction: row;
-    padding-left: 500px ;
+    /* padding-left: 500px ; */
     justify-content: center;
     align-items: center;
     width: 300px;
-    padding-bottom: 800px;
 }
 
