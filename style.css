@@ -7,11 +7,18 @@ body {
     margin: 0;
     padding: 0; 
     background-color: rgb(66, 59, 59);
-    background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
-    /* background-repeat: no-repeat; */
-    background-size: 300px;
     background-attachment: fixed; 
     overflow: scroll;
+}
+
+.background {
+    display: flex;
+    background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
+    width: 70%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
 }
 
 .header{
