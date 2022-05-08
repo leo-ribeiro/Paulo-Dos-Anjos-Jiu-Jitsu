@@ -6,14 +6,16 @@ body {
     align-items: center;
     margin: 0;
     padding: 0; 
-    background-color: #fff;
+    background-color: rgb(66, 59, 59);
     background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 300px;
     background-attachment: fixed; 
     overflow: scroll;
 }
 
 .header{
-    background: red;
+    background: #fd0002;
     display: flex;
     align-items: center;
     justify-content: space-around;
