@@ -9,6 +9,7 @@ body {
     background-color: rgb(66, 59, 59);
     background-attachment: fixed; 
     overflow: scroll;
+    
 }
 
 .background {
@@ -30,7 +31,7 @@ body {
     height: 100px;
     top: 0;
     width: 100%;
-    /* opacity: 0.8; */
+    padding: 20px;
 }
 
 .cabecalho{
@@ -42,7 +43,7 @@ body {
 .logo-img {
     width: 100px;
     height: 100px;
-    padding-right: 40px;   
+    padding: 40px; 
 }
 
 .logo-titulo{
