@@ -15,8 +15,8 @@ body {
 .background {
     display: flex;
     background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
-    width: 70%;
-    height: 50%;
+    width: 85%;
+    height: 80%;
     justify-content: space-around;
     align-items: center;
     background-attachment: fixed;
@@ -104,7 +104,7 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     color: gray;
-    /* padding-top: 150px; */
+    width: 400px;
 }
 
 article {
