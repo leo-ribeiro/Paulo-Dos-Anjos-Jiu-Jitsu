@@ -17,6 +17,7 @@ body {
     background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
     width: 70%;
     height: 50%;
+    
     justify-content: center;
     align-items: center;
     background-attachment: fixed;
