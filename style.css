@@ -15,11 +15,12 @@ body {
 .background {
     display: flex;
     background-image: url("imagens/Logo-Paulo-dos-Anjos.jpg");
-    width: 85%;
-    height: 80%;
-    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
     align-items: center;
     background-attachment: fixed;
+    padding: 200px;
 }
 
 .header{
@@ -37,7 +38,8 @@ body {
 .cabecalho{
     display: flex;
     align-items: center; 
-
+    justify-content: center;
+    height: 100px;
 }
 
 .logo-img {
@@ -53,7 +55,9 @@ body {
     font-size: 50px;
     text-align: center;  
     justify-content: center;
-    padding-top: 60px; 
+    height: 50px;
+
+    /* padding-bottom: 60px; */ 
 }
 
 .nav-lista{
@@ -93,9 +97,8 @@ h1 {
     margin: 0;
     text-align: center;
     justify-content: center;
-    font-size: 50px;
-    color: red; 
-    padding-bottom: 60px;  
+    font-size: 40px;
+    color: red;  
 }
 
 .principal {
@@ -104,14 +107,16 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     color: gray;
-    width: 400px;
+    width: 800px;
+    padding: 0;
+    font-size: 20px;
 }
 
 article {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 1000px;
     /* padding-right: 100px; */
 
 }
@@ -122,13 +127,4 @@ aside {
     align-items: center;
     width: 500px;
     /* padding-left: 100px; */
-}
-
-.frase-2 {
-    color: #fd0002;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
 }
