@@ -6,7 +6,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 0; 
-    background-color: white;
+    background-color: rgb(48, 42, 42);
     background-attachment: fixed; 
     overflow: scroll;
     
@@ -108,7 +108,7 @@ h1 {
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    color: red;
+    color: white;
     width: 1000px;
     padding: 0;
     font-size: 20px;
@@ -127,8 +127,3 @@ aside {
     align-items: center;
 }
 
-/* p { 
-    justify-content: center;
-    align-items: center;
-}
- */
