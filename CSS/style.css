@@ -83,12 +83,12 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: #FCEE1E;
     text-decoration: none;
 }
 
 .logo-titulo:hover {
-    color: black;
+    color: #FCEE1E;
 }
 
 h1 {
@@ -100,6 +100,7 @@ h1 {
     font-size: 50px;
     color: red;  
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .principal {
@@ -112,7 +113,7 @@ h1 {
     width: 1000px;
     padding: 0;
     font-size: 20px;
-    background-color: rgb(214, 214, 16);
+    background-color: #FCEE1E;
 }
 
 article {

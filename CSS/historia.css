@@ -125,12 +125,12 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: rgb(214, 214, 16);
     text-decoration: none;
 }
 
 .logo-titulo:hover {
-    color: black;
+    color: #FCEE1E;
 }
 
 h1 {
