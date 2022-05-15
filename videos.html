@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="fotos.html">
     <link rel="stylesheet" href="videos.html">
     <link rel="stylesheet" href="contato.html">
+    <link rel="stylesheet" href="videos.js">
 
 </head>
 <body>
@@ -53,6 +54,42 @@
     <div id="video4">
         <video src="./Videos/4.mp4" width="700px" height="500px" controls>Video Treino 4</video>
     </div>
+
+    <div style="text-align:center"> 
+        <button onclick="playPause()">Iniciar / Pausar</button> 
+        <button onclick="makeBig()">Grande</button>
+        <button onclick="makeSmall()">Pequeno</button>
+        <button onclick="makeNormal()">Normal</button>
+        <br><br>
+        <video id="video1" width="420">
+          <source src="./Videos/1.mp4" type="video/mp4">
+         <!--  <source src="mov_bbb.ogg" type="video/ogg"> -->
+          Your browser does not support HTML video.
+        </video>
+      </div> 
+
+      <script> 
+        var myVideo = document.getElementById("video1"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        
+        function makeBig() { 
+            myVideo.width = 560; 
+        } 
+        
+        function makeSmall() { 
+            myVideo.width = 320; 
+        } 
+        
+        function makeNormal() { 
+            myVideo.width = 420; 
+        } 
+        </script> 
 
 </div>
 
