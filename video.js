@@ -1,5 +1,5 @@
 <script> 
-var myVideo = document.getElementById("video1"); 
+var myVideo = document.getElementById("container-video"); 
 
 function playPause() { 
   if (myVideo.paused) 
