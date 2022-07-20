@@ -109,10 +109,12 @@ h1 {
     text-align: center;
     flex-wrap: wrap;
     color: red;
-    width: 1000px;
+    width: 100%;
     padding: 0;
     font-size: 20px;
     background-image: url(/Imagens/Logo-Paulinho\ BJJ.jpg);
+    background-size: 100%;
+    
     /* background-color: #FCEE1E; */
 }
 
